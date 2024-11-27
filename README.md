@@ -1,4 +1,6 @@
-# Ozone: labeling service for Bluesky and other atproto apps
+# journalist-allegedly
+
+## Ozone: labeling service for Bluesky and other atproto apps
 
 ![ozone web interface screenshot](./docs/ozone_ui.png)
 
@@ -16,7 +18,7 @@ Features:
 
 See [User Guide](./docs/userguide.md) for a quick introduction for users of the interface.
 
-## Docker Quickstart
+### Docker Quickstart
 
 ```bash
 # build image
@@ -26,7 +28,7 @@ docker build -t ozone .
 docker run -p 3000:3000 ozone
 ```
 
-## Development Quickstart
+### Development Quickstart
 
 We recommend [`nvm`](https://github.com/nvm-sh/nvm) for managing Node.js installs. This project requires Node.js version 20. `yarn` is used to manage dependencies. You can install it with `npm install --global yarn`.
 
@@ -42,7 +44,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 See [HACKING](./HACKING.md) for other development tricks, like development with a local PDS instance, or working with un-released changes to the `@atproto/api` package.
 
-## Running your own Ozone labeler service
+### Running your own Ozone labeler service
 
 > [!TIP]
 > There is a comprehensive guide for setting up your own Ozone labeler service within [HOSTING.md](./HOSTING.md).
@@ -55,7 +57,7 @@ We offer a Dockerized setup for hosting both the Ozone UI and backend together. 
 
 This process is outlined in detail within [HOSTING.md](./HOSTING.md).
 
-## Contributions
+### Contributions
 
 > While we do accept contributions, we prioritize high quality issues and pull requests. Adhering to the below guidelines will ensure a more timely review.
 
@@ -81,11 +83,11 @@ This process is outlined in detail within [HOSTING.md](./HOSTING.md).
 
 Remember, we serve a wide community of users. Our day-to-day involves us constantly asking "which top priority is our top priority." If you submit well-written PRs that solve problems concisely, that's an awesome contribution. Otherwise, as much as we'd love to accept your ideas and contributions, we really don't have the bandwidth.
 
-## Security disclosures
+### Security disclosures
 
 If you discover any security issues, please send an email to security@bsky.app. The email is automatically CCed to the entire team, and we'll respond promptly. See [SECURITY.md](https://github.com/bluesky-social/atproto/blob/main/SECURITY.md) for more info.
 
-## License
+### License
 
 This project is dual-licensed under MIT and Apache 2.0 terms:
 
@@ -94,7 +96,6 @@ This project is dual-licensed under MIT and Apache 2.0 terms:
 
 Downstream projects and end users may chose either license individually, or both together, at their discretion. The motivation for this dual-licensing is the additional software patent assurance provided by Apache 2.0.
 
-## Acknowledgements
+### Acknowledgements
 
 Logo/Icon from Flaticon: https://www.flaticon.com/free-icons/lifeguard-tower
-# journalist-allegedly
